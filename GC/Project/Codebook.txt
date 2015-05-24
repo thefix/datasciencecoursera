@@ -27,7 +27,7 @@ The variables are:
 	STANDING
 	LAYING
 
-All the following variables are double precision numbers 
+All the other following variables are double precision numbers 
 between -1 and 1.
 
 1 subject
@@ -213,7 +213,31 @@ between -1 and 1.
 
 
 
+Data Set 2: finaltidy_mean_by_activity_by_subject
 
+
+It is a data frame of of 180 observations of 88 variables.
+
+
+
+1 subject numeric 1-30
+2 activity character one of six possible activites
+3...88 mean of the fields of the same number above in the data set tidy_mean_std for all combinations of user and activity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############################additional explantion from original data####
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity was captured at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
 

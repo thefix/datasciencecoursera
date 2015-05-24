@@ -75,10 +75,11 @@ The order of the collumn is subject, activity, column containing mean in their n
 
 This data set has 88 columns and the same number of rows as data_set.
 
-13. calculates the means for all subject activity combination and create a data frame (called finaltidy_mean_by_activity_by_subject)
+13. replace the activity codes by the activity name
 
-#need to rename the activities
-#need to rename all vars to mean_of_oldname
+14. calculate the means for all subject activity combination and create a data frame (called finaltidy_mean_by_activity_by_subject)
+
+
 
 
 

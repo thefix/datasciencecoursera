@@ -5,9 +5,11 @@ READ ME file for Getting and Cleaning Data Coursera course project
 -finaltidy_mean_by_activity_by_subject
 
 A tidy data frame must have the following characteristics:
--
--
--
+-Each variable is in one column
+-Each different observation of that variable is in a different row
+-There is one table for each kind of varaible. Here ale the variables are related to the same set of observations so there is only one table
+
+See component of tidy data slide 4
 
 #Exploration of the data shows that
 X_test.txt and X_train.txt contain the observations for 561 variables. The rows are character representation of double precision numbers between -1 and 1.
@@ -21,7 +23,7 @@ It is not explicitely stated but we assume that all the files contain the data i
 In addition becuase of the assignment we need to extract the names relating to mean and standard deviation. We assume that they contain the word mean and std in all different capitalization possible. Looking at the data we see that we have the strings "mean", "Mean" and "Std" as the only three possibilities.
 No data is NA or missing.
 
-#################Process###########################
+#@@@@@@@@@@@@@@@@Process@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 1. load stringr package to be able to use function string_detect
 

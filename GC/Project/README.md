@@ -1,6 +1,6 @@
 READ ME file for Getting and Cleaning Data Coursera course project
 
-Goal: create two tidy data frames
+#Goal: create two tidy data frames
 -tidy_mean_std
 -finaltidy_mean_by_activity_by_subject
 
@@ -9,7 +9,7 @@ A tidy data frame must have the following characteristics:
 -
 -
 
-Exploration of the data shows that
+#Exploration of the data shows that
 X_test.txt and X_train.txt contain the observations for 561 variables. The rows are character representation of double precision numbers between -1 and 1.
 
 y_test.txt and y_train.txt contain the activities (6 possible activities). They have the same number of rows of their corresponding X_test/train.txt above.

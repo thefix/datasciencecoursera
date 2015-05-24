@@ -83,11 +83,16 @@ fmv2<-c(as.vector(features_mean$V2),as.vector(features_std$V2),as.vector(feature
 var_names<-c("subject","activity",fmv2)
 names(tidy_mean_std)<-var_names
 
+#rename the activities from number to corresponding text
+
+activity_text<-activity_labels[tidy_mean_std[,2],]
+tidy_mean_std[,2]<-activity_text[,2]
+
 #extract the means for all subject activity combination
 
 finaltidy_mean_by_activity_by_subject<-ddply(tidy_mean_std, .(subject, activity), colwise(mean))
 
-#need to rename the activities
+
 #need to rename all vars to mean_of_oldname
 
 
